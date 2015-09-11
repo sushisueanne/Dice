@@ -33,7 +33,6 @@ background(0);
 		 dieOne= new Die(row,column);
 		 dieOne.roll();
 		 totalroll=roll +totalroll;
-		 println(totalroll);
 		 dieOne.show();
 	}
 }
