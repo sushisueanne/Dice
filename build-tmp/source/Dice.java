@@ -32,7 +32,7 @@ background(0);
  	for (int column=10; column<900; column=column+50){
 		 dieOne= new Die(row,column);
 		 dieOne.roll();
-		 totalroll=roll +totalroll;
+		 totalroll=dieOne.numba +totalroll;
 		 dieOne.show();
 	}
 }
